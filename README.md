@@ -1,4 +1,4 @@
-_English Emily Bache Readme available in [its repository](https://github.com/emilybache/Racing-Car-Katas)_
+_Here is the english Emily Bache Readme available in [its repository](https://github.com/emilybache/Racing-Car-Katas)_
 
 _Support this and all Emily's katas via [Patreon](https://www.patreon.com/EmilyBache)_
 
