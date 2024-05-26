@@ -1,4 +1,6 @@
-_Support this and all my katas via [Patreon](https://www.patreon.com/EmilyBache)_
+_English Emily Bache Readme available in [its repository](https://github.com/emilybache/Racing-Car-Katas)_
+
+_Support this and all Emily's katas via [Patreon](https://www.patreon.com/EmilyBache)_
 
 Racing Car Katas
 =================
