@@ -1,4 +1,4 @@
-_Voici la traduction française du readme inspiré de celui d'Emily Bache_
+_Voici une traduction française du readme inspiré de celui d'Emily Bache_
 
 Racing Car Katas
 =================
@@ -44,9 +44,12 @@ Appliquez le style et le cadre de test unitaire avec lesquels vous êtes le plus
 Principes de conception et propriétés émergentes 
 ------------------------------------------------
 
-## RAPPEL : Les principes SOLID
+ Il s'agissait à l'origine d'un fork de [Luca Minudel's repo] (https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples). Il l'utilisait pour une étude des principes de TDD et de conception. Emily Bache l'utilise comme un dépôt pour stocker des exercices utiles pour les personnes souhaitant améliorer leurs compétences avec les principes TDD et SOLID. Vous pouvez consulter son article de blog ["SOLID principles and TDD"] (http://coding-is-like-cooking.info/2012/09/solid-principles-and-tdd/) pour une lecture de fond, ou le livre d'Emily Bache ["The Coding Dojo Handbook"] (http://leanpub.com/codingdojohandbook).
+ 
+- Lorsque vous aurez fait ces exercices vous-même, vous pourrez consulter les [solutions proposées] (https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples/tree/master/TDDMicroExercises.ProposedSolution) en C#, Java, Javascript. Si vous avez fait les exercices en Python, vous pourriez être intéressé par l'article sur le blog d'Emily ["SOLID exercises in Python"](http://coding-is-like-cooking.info/2012/09/solid-exercises-in-python/). 
+- Pour en savoir plus sur l'étude de Luca, consultez le [document](https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples/blob/master/Paper/mockobjects_emergingproperties.pdf?raw=true) et la [présentation](https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples/blob/master/Slides/TDD-SOLID.pdf?raw=true) sur le site de Luca.
 
-Je m'inspire ici de cet [article [FR]](https://hts-learning.com/blog/2022-08-04/csharp-solid-single-responsibility) et cette [liste de vidéo](https://www.youtube.com/playlist?list=PL0YTS3lJHMdrPTH18gs5uhaHD86kry1TC)
+## RAPPEL : Les principes SOLID
 
 ### S = Single Responsability =  Une seule responsabilité
 
@@ -58,12 +61,12 @@ Une classe doit être ouvert à l'extension mais fermée à la modification.
 
 ### L = Liskov substitution = Substitution de Liskov
 
-En cours
+Les méthodes qui utilisent une classe de base doivent pouvoir utiliser des instances de classes dérivées sans le savoir : toutes les classes dérivées doivent respecter le contrat défini par la classe de base
 
 ### I = Interface Segregation = Ségrégation d'Interface
 
-En cours
+Les clients ne doivent pas être contraints de dépendre de membres d'interface qu'ils n'utilisent pas : les interfaces qui ne servent qu'une seule portée devraient doivent être préférées aux interfaces lourdes.
 
 ### D = Dependency Inversion = Inversion de dépendance
 
-En cours
+Les classes de bas niveau et les classes de haut niveau doivent toutes deux dépendre d'abstractions : les classes de haut niveau ne doivent pas dépendre des classes de bas niveau.
